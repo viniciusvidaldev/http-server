@@ -1,0 +1,8 @@
+[package]
+name = "myhttp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+flate2 = "1.1.10"
+tokio = { version = "1.53.2", features = ["full"] }
